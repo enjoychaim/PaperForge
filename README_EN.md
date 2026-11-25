@@ -10,14 +10,20 @@
 
 | File | Description |
 | --- | --- |
-| [English Skill](./.agents/skills/paper-reading/SKILL.md) | English paper-reading Skill in the Agent Skills format |
+| [English Skill](./skills/paper-reading/SKILL.md) | English paper-reading Skill in the Agent Skills format |
 | [System_Prompt_EN.txt](./System_Prompt_EN.txt) | English system prompt for ChatGPT / Claude custom instructions |
 
 ## How to Use
 
 ### Option A: Claude/Codex Skill
 
-Install [English Skill](./.agents/skills/paper-reading/SKILL.md) under the corresponding skills directory.
+Run this command in your project directory to install both language versions:
+
+```bash
+npx -y skills add enjoychaim/paper-reading-zh -y
+```
+
+Append `--skill paper-reading` to install only the English version. For manual installation, copy the [English Skill](./skills/paper-reading/SKILL.md) into your agent's skills directory.
 
 ### Option B: System Prompt (my personal recommendation)
 

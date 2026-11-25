@@ -10,7 +10,15 @@
 
 ### Option A: Claude/Codex Skill
 
-安装 [.agents/skills/paper-reading-zh/SKILL.md](./.agents/skills/paper-reading-zh/SKILL.md)（中文）或 [.agents/skills/paper-reading/SKILL.md](./.agents/skills/paper-reading/SKILL.md)（English），并放在对应的 Skill 目录中。
+在要使用 Skill 的项目目录中运行：
+
+```bash
+npx -y skills add enjoychaim/paper-reading-zh -y
+```
+
+默认安装中英文两个 Skill。只安装中文版时，在命令末尾加 `--skill paper-reading-zh`。
+
+也可以手动将 [中文版](./skills/paper-reading-zh/SKILL.md)或[英文版](./skills/paper-reading/SKILL.md)放入对应的 Skill 目录。
 
 ### Option B: System Prompt (个人推荐)
 
