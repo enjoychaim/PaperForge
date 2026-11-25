@@ -10,13 +10,13 @@
 
 ### Option A: Claude/Codex Skill
 
-在要使用 Skill 的项目目录中运行：
+在要使用 Skill 的项目目录中运行以下命令，安装中文版。
 
 ```bash
-npx -y skills add enjoychaim/paper-reading-zh -y
+npx -y skills add enjoychaim/PaperForge -y --skill paper-reading-zh
 ```
 
-默认安装中英文两个 Skill。只安装中文版时，在命令末尾加 `--skill paper-reading-zh`。
+全局安装时加 `-g`。要同时安装中英文两版，去掉 `--skill paper-reading-zh`。
 
 也可以手动将 [中文版](./skills/paper-reading-zh/SKILL.md)或[英文版](./skills/paper-reading/SKILL.md)放入对应的 Skill 目录。
 

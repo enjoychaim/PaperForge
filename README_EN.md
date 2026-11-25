@@ -17,13 +17,13 @@
 
 ### Option A: Claude/Codex Skill
 
-Run this command in your project directory to install both language versions:
+Run this command in your project directory to install the English skill.
 
 ```bash
-npx -y skills add enjoychaim/paper-reading-zh -y
+npx -y skills add enjoychaim/PaperForge -y --skill paper-reading
 ```
 
-Append `--skill paper-reading` to install only the English version. For manual installation, copy the [English Skill](./skills/paper-reading/SKILL.md) into your agent's skills directory.
+Add `-g` to install globally. Omit `--skill paper-reading` to install both language versions. For manual installation, copy the [English Skill](./skills/paper-reading/SKILL.md) into your agent's skills directory.
 
 ### Option B: System Prompt (my personal recommendation)
 
